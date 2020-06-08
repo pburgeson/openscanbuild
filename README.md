@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# 3D Scanner Build
+Build and testing of 3D scanner from Open Scan (https://en.openscan.eu/).  This is just using their plans and documents to successfully build a 3d scanner that uses photogrammetry.  My primary intent is to not have to measure objects that I want to design around in CAD.  Typically that means I'll be 3D printing the parts that make with it so precision is not incredibly critcal.  If I can get with +/- 0.010 in, I'll be pretty happy. 
 
-You can use the [editor on GitHub](https://github.com/pburgeson/openscanbuild/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A secondary goal is to develop processes and methods for updating github with project info and something akin to a project log.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# High Level Requirements
+1. Able to generate 3D data that Autodesk Fusion 360 is capable of working with.
+2. Precision of 0.010" or better
+3. Scan Volume - Cylinder of radius ?? in and height ?? in
+4. Use of trinamic stepper drivers
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pburgeson/openscanbuild/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Future projects will include substantially more requirements development.  Since this project is about building a thing that someone else's design and documenting it, we won't go into a lot more detail.
