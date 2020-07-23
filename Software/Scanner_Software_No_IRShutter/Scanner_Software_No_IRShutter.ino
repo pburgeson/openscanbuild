@@ -1074,7 +1074,7 @@ void AUSLOESEN () {
   //  P.shutterNow();}
   //if(val4==7){Sony S(photopin1);
   //  S.shutterNow();}
-  //delay(releasetime);
+  delay(releasetime);
   digitalWrite(photopin1, LOW);
   delay(TpF);
 
