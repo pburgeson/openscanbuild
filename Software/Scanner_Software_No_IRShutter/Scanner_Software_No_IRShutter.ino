@@ -1060,8 +1060,8 @@ void AUSLOESEN () {
   Serial.println(val2);
   lcd.print(" of ");
   lcd.print(totalphotos);
-  //if(val4==1){
-  //  digitalWrite(photopin1, HIGH);}
+  if(val4==1){
+    digitalWrite(photopin1, HIGH);}
   //if(val4==2){Canon C(photopin1);
   //  C.shutterNow();}
   //if(val4==3){Minolta M(photopin1);
