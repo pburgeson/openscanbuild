@@ -6,9 +6,8 @@ A secondary goal is to develop processes and methods for updating github with pr
 # High Level Requirements
 1. Able to generate 3D data that Autodesk Fusion 360 is capable of working with.
 2. Precision of 0.010" or better
-3. Scan Volume - Cylinder of radius ?? in and height ?? in
+3. Scan Volume - Cylinder of 12 in diameter and height of 8 in
 4. ~~Use of trinamic stepper drivers~~*
-
 *Removed as open scan pcb was not compatible with Trinamic Step Stick and does not affect functionality
 
 Future projects will include substantially more requirements development.  Since this project is about building a thing that someone else's design and documenting it, we won't go into a lot more detail.
